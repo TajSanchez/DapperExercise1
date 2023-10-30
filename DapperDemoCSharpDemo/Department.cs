@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace DapperDemoCSharpDemo
 {
-    internal class Department
+    public class Department
     {
+        public int DepartmentID { get; set; }
+
+        public string Name { get; set; }
+
+
+
+
     }
 }

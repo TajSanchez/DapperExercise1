@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DapperDemoCSharpDemo
 {
-    internal interface IDepatrmentRepo
+   public interface IDepatrmentRepo
     {
+        public IEnumerable<Department> GetAllDeparments();
+        public void InsertDepartment(string newName);
     }
 }
